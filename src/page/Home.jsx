@@ -72,7 +72,7 @@ const Home = () => {
     {/* Preview */}
     <div className='mb-4 flex flex-col justify-center items-center'>
       <h2 className='py-4 text-2xl font-bold'>Preview</h2>
-        <div className='p-4 min-h-[200px] w-[500px] bg-black ' id='canvas'>
+        <div className='p-4 min-h-[200px] max-w-[500px] bg-black ' id='canvas'>
           <div className='flex items-center gap-2'>
             <img className='w-12 h-12 rounded-full' src={img || "https://t4.ftcdn.net/jpg/03/49/49/79/360_F_349497933_Ly4im8BDmHLaLzgyKg2f2yZOvJjBtlw5.jpg" } alt="dp" />
             <div className='flex flex-col justify-center'>
